@@ -320,3 +320,35 @@ footer {
   height: auto;
   border-radius: 10px;
 }
+.contact {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  flex-wrap: no-wrap;
+  margin: 0 auto;
+  margin-bottom: 1.5rem;
+  flex-direction: column;
+  text-align: left;
+  height: 400px;
+}
+@media (max-width: 500px) {
+  .contact {
+    max-width: 100vw;
+    height: 500px;
+  }
+}
+.contact label {
+  font-size: 2rem;
+}
+.contact input,
+.contact textarea {
+  padding: 0.8rem;
+  border-radius: 5px;
+  border: 2px solid #23293B;
+  transition: border 0.2s ease-in-out;
+  max-width: 100%;
+}
+.contact input:focus,
+.contact textarea:focus {
+  border-color: white;
+}

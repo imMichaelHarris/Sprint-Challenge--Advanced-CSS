@@ -160,6 +160,25 @@ p {
   width: 100%;
   margin: 0 auto;
 }
+.space-walkers {
+  font-size: 5rem;
+  text-align: center;
+  padding: 20px;
+}
+.space-nav {
+  max-width: 500px;
+  margin: auto;
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 15px;
+}
+.space-nav a {
+  font-size: 1.5rem;
+  text-decoration: none;
+  color: #5E6164;
+  font-weight: 600;
+}
 footer {
   color: #22283B;
   background: #f4f4f4;
@@ -169,6 +188,9 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.home .intro .header-img {
+  border-radius: 5px;
 }
 .home .intro h2 {
   padding: 15px;
@@ -211,6 +233,15 @@ footer {
 }
 .home .walk .walk-text p {
   margin-bottom: 26px;
+}
+.home .walk .walk-text .btn {
+  background: #23293B;
+  color: #F1F1F1;
+  border-radius: 5px;
+  text-align: center;
+  max-width: 30%;
+  font-size: 1.8rem;
+  padding: 0.5rem 0;
 }
 .home .walk .walk-img {
   width: 46%;

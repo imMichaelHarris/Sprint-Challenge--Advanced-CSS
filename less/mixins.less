@@ -1,1 +1,21 @@
 // Mixins Here
+.flex-container(@justify, @wrap: no-wrap, @mar: 1.5rem){
+    display: flex;
+    justify-content: @justify;
+    text-align: center;
+    flex-wrap: @wrap;
+    margin: 0 auto;
+    margin-bottom: @mar;
+}
+
+.buttons(@text-color, @color-bg, @radius: 5px, @text-size: 1.8rem, @pad: .5rem 0) {
+    border-radius: @radius;
+    color: @text-color;
+    background: @color-bg;
+    font-size: @text-size;
+    padding: @pad;
+    text-align: center;
+    transition-property: background-color, color;
+    transition:  .4s ease-in-out;
+
+}
